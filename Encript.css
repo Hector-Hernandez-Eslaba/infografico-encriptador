@@ -1,0 +1,57 @@
+
+
+ 
+           
+
+.Text{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    top: 168px;
+    left: 240px;
+
+}
+
+.Advertencia{
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    top: 851px;
+    left: 240px;
+    
+
+}
+
+.Boton{
+    position: relative;
+    width: Fixed (680px);
+    height: Hug (67px);
+    top: 885px;
+    left: 240px;
+    
+
+}
+
+.Box-Alter{
+    position: relative;
+    background-color: brown;
+}
+
+.Muñeco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    left: 1032px;
+
+}
+
+.Text-2{
+    position: absolute;
+    width: Fixed (336px);
+    height: Hug (122px);
+    top: 619px;
+    left: 1032px;
+    gap: 16px;
+
+}
