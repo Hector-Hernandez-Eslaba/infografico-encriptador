@@ -1,7 +1,16 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+}
 
-
- 
-           
+.Container{
+    background-color: brown;
+    width: 720px;
+    height: 720px;
+}
 
 .Text{
     position: absolute;
@@ -9,49 +18,36 @@
     height: 48px;
     top: 168px;
     left: 240px;
-
+    border: none;
+    resize: none;
 }
 
-.Advertencia{
+.exclamacion{ 
+   float: left;
+   margin: 0 10px 0 0;
+      
+}
+
+#Advertencia{
     position: absolute;
-    width: 229px;
+    background-color: aqua;
+    width: 290px;
     height: 18px;
     top: 851px;
     left: 240px;
-    
-
 }
 
-.Boton{
+input{
     position: relative;
-    width: Fixed (680px);
-    height: Hug (67px);
-    top: 885px;
-    left: 240px;
-    
-
+    border-radius: 25px;
+    width: 328px;
+    height: 68px;
+    padding: 24px;
+    Top: 885px;
+    Left: 240px;
+    margin: 0 10px 0 0;
 }
 
-.Box-Alter{
-    position: relative;
-    background-color: brown;
-}
-
-.Muñeco{
-    position: absolute;
-    width: 336px;
-    height: 304px;
-    top: 283px;
-    left: 1032px;
-
-}
-
-.Text-2{
-    position: absolute;
-    width: Fixed (336px);
-    height: Hug (122px);
-    top: 619px;
-    left: 1032px;
-    gap: 16px;
-
+#Primero{
+    background-color: #0A3871;
 }
