@@ -3,29 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Encript.css">
-    <title>Infografico Encriptador</title>
+    <title>encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Gabarito&family=Inter:wght@200&display=swap" rel="stylesheet">
+<link href="stylesheet" href="encript.css">
 </head>
 <body>
     <header>
-        <div class="Box-Logo">
-            <h1><img src="Imagenes/Logo.png" alt="Logo"></h1>
-        </div>
-    </header> 
+        <img class="Logo" src="Imagenes/Logo.png" alt="Logo">
+    </header>
     <main>
-        <section class="Container">
-            <textarea class="Text" placeholder="Ingrese el texto aqui" cols="50" rows="50"></textarea>
-            <p id="Advertencia"><img class="exclamacion" src="Imagenes/bi_exclamation-circle-fill.png" alt="Exclamacion">Solo letras minusculas y sin acentos</p>
-            <input id="Primero" class="Boton" type="button" value="Encriptar">
-            <input class="Boton" type="button" value="Desencriptar">    
-        </section> 
-        <section class="Segundo-Container">   
-            <div class="Box-Alter">
-                <img class="Muñeco" src="Imagenes/Muñeco.png" alt="Muñeco obserbando un diamante">
-                <p class="Text-2">Ningun mensaje fue encontrado</p>
-                <p class="Text-2">Ingrese el texto que desees encriptar o desencriptar</p>
+        <Section class="box-text">
+            <div class="text-area">
+                <textarea class="text-box" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Imagenes/bi_exclamation-circle-fill.png" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="containe-boton">
+                <input type="submit" class="boton-encriptar" value="Encriptar">
+                <input type="submit" class="boton-desencriptar" value="desencriptar">
+            </div>
+        </Section>
+        <section class="box-result">
+            <div class="box-img">
+                <img src="Imagenes/Muñeco.png" alt="Muneco">
+            </div>
+            <div class="box-parrafo">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br>desencriptar.</p>
+            </div>
+            <div class="btn-copiar">
+                <input type="submit" value="Copiar" class="copiar">
+            </div>
+            <div class="box-resultado">
+                <p class="resultado"></p>
             </div>
         </section>
-    </main>   
+    </main>
 </body>
 </html>
